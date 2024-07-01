@@ -2,7 +2,7 @@ This is a new [**React Native**](https://reactnative.dev) project, bootstrapped 
 
 # Getting Started
 
->**Note**: Make sure you have completed the [React Native - Environment Setup](https://reactnative.dev/docs/environment-setup) instructions till "Creating a new application" step, before proceeding.
+> **Note**: Make sure you have completed the [React Native - Environment Setup](https://reactnative.dev/docs/environment-setup) instructions till "Creating a new application" step, before proceeding.
 
 ## Step 1: Start the Metro Server
 
@@ -77,3 +77,74 @@ To learn more about React Native, take a look at the following resources:
 - [Learn the Basics](https://reactnative.dev/docs/getting-started) - a **guided tour** of the React Native **basics**.
 - [Blog](https://reactnative.dev/blog) - read the latest official React Native **Blog** posts.
 - [`@facebook/react-native`](https://github.com/facebook/react-native) - the Open Source; GitHub **repository** for React Native.
+
+==============================================
+
+Setup from scratch:
+Introduction
+MyStoreApp is a mobile application built with React Native for managing store products. It integrates features such as navigation using React Navigation, state management using Redux Toolkit, database management using WatermelonDB, and backend interaction using Supabase SDK.
+
+Prerequisites
+Before starting, ensure you have the following installed:
+
+Node.js (version >= 18)
+npm or yarn package manager
+Android Studio and Xcode for mobile development environments
+Installation
+Follow these steps to set up MyStoreApp:
+
+Clone the repository:
+
+git clone https://github.com/yourusername/MyStoreApp.git
+cd MyStoreApp
+Install dependencies:
+
+yarn install
+
+# or
+
+npm install
+Link native dependencies (for React Native < 0.60):
+
+npx react-native link
+Set up WatermelonDB and Supabase:
+
+Configure your Supabase credentials in your application.
+Initialize WatermelonDB tables and schemas as per your application requirements.
+Start Metro Bundler:
+
+npx react-native start
+Usage
+To run MyStoreApp on Android or iOS devices/emulators:
+
+For Android:
+
+yarn android
+
+# or
+
+npm run android
+For iOS:
+
+yarn ios
+
+# or
+
+npm run ios
+Scripts
+yarn android or npm run android: Runs the app on connected Android device/emulator.
+yarn ios or npm run ios: Runs the app on iOS simulator (Mac required).
+yarn lint or npm run lint: Runs ESLint for linting code.
+yarn start or npm start: Starts Metro Bundler.
+yarn test or npm test: Runs Jest for testing.
+Dependencies
+React Native: Cross-platform framework for building mobile apps.
+WatermelonDB: Offline-first database for React Native.
+Supabase SDK: SDK for interacting with the Supabase backend.
+React Navigation: Routing and navigation for React Native apps.
+Redux Toolkit: State management library for React applications.
+Dev Dependencies
+TypeScript: Typed JavaScript at any scale.
+ESLint: Pluggable JavaScript linter.
+Jest: JavaScript testing framework.
+Prettier: Opinionated code formatter.
