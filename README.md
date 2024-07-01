@@ -92,10 +92,9 @@ npm or yarn package manager
 Android Studio and Xcode for mobile development environments
 Installation
 Follow these steps to set up MyStoreApp:
-
 Clone the repository:
 
-git clone https://github.com/yourusername/MyStoreApp.git
+git clone https://github.com/uzair888/mystoreapp
 cd MyStoreApp
 Install dependencies:
 
