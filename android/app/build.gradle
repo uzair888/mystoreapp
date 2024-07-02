@@ -71,7 +71,7 @@ def jscFlavor = 'org.webkit:android-jsc:+'
 
 android {
     // ndkVersion rootProject.ext.ndkVersion
-    ndkVersion '27.0.11902837'
+    ndkVersion '26.1.10909125'
     buildToolsVersion rootProject.ext.buildToolsVersion
     compileSdk rootProject.ext.compileSdkVersion
 

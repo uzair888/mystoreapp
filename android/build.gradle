@@ -1,3 +1,4 @@
+buildDir = 'D:/MyStoreApp/build'
 buildscript {
     ext {
         buildToolsVersion = "34.0.0"
@@ -18,5 +19,9 @@ buildscript {
     }
 }
 
+task clean(type: Delete) {
+    delete rootProject.buildDir
+}
 
 apply plugin: "com.facebook.react.rootproject"
+
